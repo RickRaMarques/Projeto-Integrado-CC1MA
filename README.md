@@ -11,5 +11,5 @@
 3. [Modelo Lógico](ProjetoIntegrado-Abrantes/ProjetoIntegrado.architect)
 
 ## Arquivos HTML CSS JS:
-1. [Códigos]()
-2. [Imagens]()
+1. [Códigos](ProjetoIntegrado-Ótavio)
+2. [Imagens](ProjetoIntegrado-Ótavio/imagens)
