@@ -12,4 +12,4 @@
 
 ## Arquivos HTML CSS JS:
 1. [Códigos](https://github.com/RickRaMarques/Projeto-Integrado-CC1MA/tree/main/ProjetoIntegrado-Otávio/Códigos)
-2. [Imagens](ProjetoIntegrado-Ótavio/imagens)
+2. [Imagens](https://github.com/RickRaMarques/Projeto-Integrado-CC1MA/tree/main/ProjetoIntegrado-Otávio/imagens)
