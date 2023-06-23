@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="perfil.css">
+</head>
+
+<body>
+    <section id="area">
+        <section id="perfil">
+            <section id="foto">
+                <input type="file" accept="image/*" id="arquivo">
+                <label for="arquivo">
+                    <img src="./imagens/icons8-convidado-masculino-100.png" alt="foto de perfil" id="fotoperfil"
+                        onclick="trocarfoto()">
+                </label>
+            </section>
+            <button id="editar"><img src="./imagens/icons8-editar-48 (1).png" alt=""> Editar Perfil</button>
+            <section id="menu">
+                <ul>
+                    <li><img src="./imagens/icons8-estrela-50.png" alt="">Posts</li>
+                    <li><img src="./imagens/icons8-usuário-homem-com-círculo-50.png" alt="">Perfil</li>
+                    <li><img src="./imagens/icons8-calendário-do-bebê-32.png" alt="">Eventos</li>
+                    <a href="config.html">
+                        <li><img src="./imagens/icons8-configurações-32.png" alt="">Configurações</li>
+                    </a>
+                    <li><img src="./imagens/icons8-ajuda-50.png" alt="">Ajuda</li>
+                </ul>
+            </section>
+        </section>
+        <section id="dados">
+            <div class="container">
+                <input type="text" value="Seu Nome" readonly id="nome">
+                <div class="linha"></div>
+            </div>
+            <div class="container">
+                <textarea name="bio" id="bio" cols="3" rows="3" readonly>Sua Bio</textarea>
+                <div class="linha"></div>
+            </div>
+            <section id="posts">
+                <div>
+                    <section class="post"></section>
+                </div>
+                <div>
+                    <section class="post"></section>
+                </div>
+            </section>
+        </section>
+    </section>
+    <section id="certificados">
+        <section id="certo">
+            <h1>Certificados:</h1>
+        </section>
+        <section id="certo2"></section>
+    </section>
+    <script src="perfil.js"></script>
+</body>
+
+</html>

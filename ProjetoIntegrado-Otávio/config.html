@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  </style>
+  <title>Configurações</title>
+  <link rel="stylesheet" type="text/css" href="config.css">
+</head>
+
+<body>
+  <div class="sidebar">
+    <ul style="list-style-type: none;">
+      <a href="index.html">
+        <li>
+          <img src="./imagens/icons8-estrela-50.png" alt="">
+          Posts
+        </li>
+      </a>
+      <a href="perfil.html">
+        <li>
+          <img src="./imagens/icons8-usuário-homem-com-círculo-50.png" alt="">
+          Perfil
+        </li>
+      </a>
+      <a href="eventos.html">
+        <li>
+          <img src="./imagens/icons8-calendário-do-bebê-32.png" alt="">
+          Eventos
+        </li>
+      </a>
+      <li>
+        <img src="./imagens/icons8-configurações-32.png" alt="">
+        Configurações
+      </li>
+      <a href="style.html">
+        <li>
+          <img src="./imagens/icons8-ajuda-50.png" alt="">
+          Ajuda
+        </li>
+      </a>
+    </ul>
+  </div>
+
+  <div class="content">
+    <div class="box">
+      <div class="options">
+        <div class="left-options">
+          <ul style="list-style-type: none;">
+            <li id="opcao1" class="opcao">Geral <section id="retangulo"></section>
+            </li>
+            <li id="opcao2" class="opcao">Notificações</li>
+            <li id="opcao3" class="opcao">Privacidade</li>
+          </ul>
+        </div>
+        <div class="divider-vertical"></div>
+        <div class="right-options">
+          <ul style="list-style-type: none;">
+            <li class="opcao">Modo Escuro <label class="switch">
+                <input type="checkbox" id="mySwitch" onchange="toggleswitch1()">
+                <span class="slider round"></span>
+              </label></li>
+            <li class="opcao">Legendas <label class="switch">
+                <input type="checkbox" id="mySwitch" onchange="">
+                <span class="slider round"></span>
+              </label></li>
+            <li class="opcao">Idiomas <img src="./imagens/Captura de tela 2023-06-19 201116-PhotoRoom.png-PhotoRoom.png"
+                alt=""></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="config.js"></script>
+</body>
+
+</html>
