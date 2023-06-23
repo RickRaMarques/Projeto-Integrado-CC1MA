@@ -5,5 +5,7 @@
 - Gustavo Gazzinelli Tanure Moreira
 - Arthur Bottechia Rocco Ramos
 
-## Arquivos:
+## Arquivos Banco de Dados:
 1. [Código PostgreSQL](ProjetoIntegrado-Abrantes/ProjetoIntegrado.sql)
+2. [Modelo Conceitual](ProjetoIntegrado-Abrantes/ProjetoIntegrado.brM3)
+3. [Modelo Lógico](ProjetoIntegrado-Abrantes/ProjetoIntegrado.architect)
