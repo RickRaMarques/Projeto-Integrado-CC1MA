@@ -1,1 +1,6 @@
-# Projeto-Integrado-CC1MA
+# Projeto Integrado
+## Alunos: 
+- Ricardo Ramalho Marques
+- Vitor Modolo França
+- Gustavo Gazzinelli Tanure Moreira
+- Arthur Bottechia Rocco Ramos
